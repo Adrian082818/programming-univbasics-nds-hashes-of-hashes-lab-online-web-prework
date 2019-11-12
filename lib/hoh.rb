@@ -31,7 +31,7 @@
 
 def naming_system 
    starting_node = {
-   "Kingdom" => "Phylum",
+  label: "Kingdom" => "Phylum",
  sub_category: {
    "Class" => {
      sub_category: {
