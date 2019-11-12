@@ -50,7 +50,6 @@ def naming_system
 }
 }
 }
-end 
 return starting_node
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
