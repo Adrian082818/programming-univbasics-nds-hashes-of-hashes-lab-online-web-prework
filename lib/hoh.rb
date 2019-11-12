@@ -34,20 +34,20 @@ def naming_system
   label: "Kingdom", 
  sub_category: {
    label: "Phylum",
-   "Class" => {
+   sub_category: { 
+   label: "Class",
      sub_category: {
-       "Order" => {},
+       label: "Order",
        sub_category: { 
-         "Family" => {
+         label: "Family",
            sub_category: { 
-             "Genus" => {},
+             label: "Genus",
                sub_category: {
                  "Species" => nil 
                }
              }
          }
      }
-}
 }
 }
 }
